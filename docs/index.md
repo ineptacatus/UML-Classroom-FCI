@@ -29,7 +29,7 @@
 
 * Marco Antonio de Camargo
 * Natan Moreira Passos 
-* Aluno 3
+* Nícolas Henriques de Almeida
 
 
 
