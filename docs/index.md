@@ -27,8 +27,8 @@
 
 # Autores
 
-* Aluno 1
-* Natan Moreira Passos - 10417916
+* Marco Antonio de Camargo
+* Natan Moreira Passos 
 * Aluno 3
 
 
