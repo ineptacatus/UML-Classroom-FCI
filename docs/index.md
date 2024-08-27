@@ -28,8 +28,10 @@
 # Autores
 
 * Marco Antonio de Camargo
-* Aluno 2
+* Natan Moreira Passos 
 * Aluno 3
+
+
 
 # Descrição do Projeto
 
