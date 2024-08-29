@@ -34,7 +34,7 @@
 
 O projeto \<nome do projeto> busca facilitar o processo de registro e controle de presenças dos alunos da Escola Infinito.
 
----
+___
 
 ### Problema
 A escola conta com cinco turmas, do 1º ao 5º ano do Ensino Fundamental I. Cada turma possui entre 20 e 30 alunos, um professor principal e alguns outros para matérias específicas. Atualmente, o controle de presenças é feito manualmente no papel, duas vezes por dia em todas as turmas, o que gera problemas como a demora para o registro, a recorrência de erros e a dificuldade de validar informações anteriores.
