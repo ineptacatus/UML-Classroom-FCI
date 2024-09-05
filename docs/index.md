@@ -11,7 +11,11 @@
 
 - [Autores](#autores)
 - [Descrição do Projeto](#descrição-do-projeto)
+		- [Problema](#problema)
+		- [Solução](#solução)
+		- [Funcionalidades](#funcionalidades)
 - [Análise de Requisitos Funcionais e Não-Funcionais](#análise-de-requisitos-funcionais-e-não-funcionais)
+		- [Requisitos funcionais](#requisitos-funcionais)
 - [Diagrama de Atividades](#diagrama-de-atividades)
 - [Diagrama de Casos de Uso](#diagrama-de-casos-de-uso)
 - [Descrição dos Casos de Uso](#descrição-dos-casos-de-uso)
@@ -55,6 +59,21 @@ O sistema contará com recursos que buscam facilitar sua utilização, estes sã
 
 # Análise de Requisitos Funcionais e Não-Funcionais
 *&lt;Descrição dos requisitos&gt;*
+### Requisitos funcionais
+- Para o sistema de faltas
+  - Banco de dados que mantem as informações de cada aluno, professor, materia, e informações aluno_materia.
+  - Login que especifica o professor registrando as faltas e a materia que ele leciona.
+  - Bloqueio de alteração de presença fora do horario da aula.
+  - Contador de faltas para cada aluno + representação dessa quantia em porcentagem.
+  - Sistema de notificação para pais ou responsaveis.
+  - Chave para alteração de faltas em casos necessarios, como equívocos ou alunos com atestados.
+  - ---
+  -	Um professor deve poder acessar o sistema, inserir seu login e horario da aula e ser levado à lista de chamada para aquela turma especifica.
+  - Ao possui acesso à lista, o professor poderá então adicionar faltas à um aluno que essas serão somadas às outras faltas que aquele aluno tem para aquela materia especifica.
+  
+- Recursos de acessibilidade
+  - Fonte ajustavel.
+  - Regulagem de contraste.
 
 # Diagrama de Atividades
 
