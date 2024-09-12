@@ -11,11 +11,12 @@
 
 - [Autores](#autores)
 - [Descrição do Projeto](#descrição-do-projeto)
-		- [Problema](#problema)
-		- [Solução](#solução)
-		- [Funcionalidades](#funcionalidades)
+    - [Problema](#problema)
+    - [Solução](#solução)
+    - [Funcionalidades](#funcionalidades)
 - [Análise de Requisitos Funcionais e Não-Funcionais](#análise-de-requisitos-funcionais-e-não-funcionais)
-		- [Requisitos funcionais](#requisitos-funcionais)
+    - [Requisitos funcionais](#requisitos-funcionais)
+    - [Requisitos não funcionais](#requisitos-não-funcionais)
 - [Diagrama de Atividades](#diagrama-de-atividades)
 - [Diagrama de Casos de Uso](#diagrama-de-casos-de-uso)
 - [Descrição dos Casos de Uso](#descrição-dos-casos-de-uso)
@@ -60,20 +61,21 @@ O sistema contará com recursos que buscam facilitar sua utilização, estes sã
 # Análise de Requisitos Funcionais e Não-Funcionais
 *&lt;Descrição dos requisitos&gt;*
 ### Requisitos funcionais
-- Para o sistema de faltas
-  - Banco de dados que mantem as informações de cada aluno, professor, materia, e informações aluno_materia.
-  - Login que especifica o professor registrando as faltas e a materia que ele leciona.
-  - Bloqueio de alteração de presença fora do horario da aula.
-  - Contador de faltas para cada aluno + representação dessa quantia em porcentagem.
-  - Sistema de notificação para pais ou responsaveis.
-  - Chave para alteração de faltas em casos necessarios, como equívocos ou alunos com atestados.
-  - ---
-  -	Um professor deve poder acessar o sistema, inserir seu login e horario da aula e ser levado à lista de chamada para aquela turma especifica.
-  - Ao possui acesso à lista, o professor poderá então adicionar faltas à um aluno que essas serão somadas às outras faltas que aquele aluno tem para aquela materia especifica.
-  
-- Recursos de acessibilidade
-  - Fonte ajustavel.
-  - Regulagem de contraste.
+- O sistema deve permitir que usuários (professor e administração) façam login com seus usernames e senhas.
+- O sistema deve permitir que o usuário administração atribua turmas para um professor.
+- O sistema deve permitir que o usuário professor registre presenças para os alunos de suas respectivas turmas.
+- O sistema deve permitir que o usuário administração inclua e modifique dados no sistema de forma irrestrita.
+- O sistema deve permitir que o usuário professor gere relatórios com a opção de serem agrupados por filtros de data, ano de ensino, turma, disciplina ou aluno.
+- O sistema deve permitir que um professor envie notificações por email para os pais ou responsaveis em casos de faltas excessivas.
+- O sistema deve ter recursos de acessibilidade para garantir a inclusão de todos os usuários.   
+
+### Requisitos não funcionais
+- O sistema deve ser capaz de ser atualizado por multiplas contas simultaneamente, considerando que existem aulas de salas diferentes que ocorrem ao mesmo tempo.
+- O banco de dados deve ser grande o suficiente para integrar dados de todos os alunos, professores, e informações de aulas.
+- Os dados pessoais dos usuarios deverão ser armazenados com criptografia.
+- O tempo de resposta do sistema deve ser inferior a 3 segundos.
+- O sistema deve seguir as normas da legislação LGPD.
+- O sistema deve estar disponivel 99,9% do tempo.
 
 # Diagrama de Atividades
 
