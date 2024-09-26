@@ -85,7 +85,26 @@ O sistema contará com recursos que buscam facilitar sua utilização, estes sã
 
 # Descrição dos Casos de Uso
 
-*&lt;Descrição do comportamento entre os atores/resquisitos&gt;*
+| **Nome do caso de uso** | Fazer login |
+| --- | --- |
+| **Atores principais** | Professor, Administrador |
+| **Atores secundários** | |
+| **Resumo** | Este caso de uso descreve as etapas <br> percorridas por um usuário para fazer <br> login no sistema|
+| **Pré-condições** | |
+| **Pós-condições** | |
+| **FLUXO PRINCIPAL** | |
+| **Ações do ator** | **Ações do sistema** |
+| 1. Usuário insere seu usuário e senha |  |
+| | 2. Sistema verifica que o usuário e senha <br> inseridos correspondem a um usuário no <br> banco de dados|
+| 3. Usuário recebe acesso ao sistema <br> utilizando sua conta | |
+| **FLUXOS ALTERNATIVOS** | |
+| | 2. Sistema verifica que o usuário e senha <br> inseridos não correspondem a um usuário <br> no banco de dados e redireciona o usuário <br> para a tela de login novamente |
+| <br> | |
+| **FLUXOS DE EXCEÇÃO** | |
+| <br> | |
+| <br> | |
+| **Restrições e validações** | 1. É necessário ter uma conta cadastrada <br> no sistema |
+
 
 # Diagrama de Sequência
 
