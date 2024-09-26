@@ -59,7 +59,6 @@ O sistema contará com recursos que buscam facilitar sua utilização, estes sã
 
 
 # Análise de Requisitos Funcionais e Não-Funcionais
-*&lt;Descrição dos requisitos&gt;*
 ### Requisitos funcionais
 - O sistema deve permitir que usuários (professor e administração) façam login com seus usernames e senhas.
 - O sistema deve permitir que o usuário administração atribua turmas para um professor.
@@ -82,8 +81,7 @@ O sistema contará com recursos que buscam facilitar sua utilização, estes sã
 *&lt;Diagrama para visualizer as pessoas das áreas de negócios e de desenvolvimento de uma organização para entender o processo e comportamento.&gt;*
 
 # Diagrama de Casos de Uso
-
-*&lt;Diagrama para visualizar o comportamento dos atores&gt;*
+![Casos_de_uso_IneptaCatus drawio(1)(1)](https://github.com/user-attachments/assets/b7ca29ba-9ccf-4a1a-9248-5525b4a54856)
 
 # Descrição dos Casos de Uso
 
