@@ -81,7 +81,7 @@ O sistema contará com recursos que buscam facilitar sua utilização, estes sã
 *&lt;Diagrama para visualizer as pessoas das áreas de negócios e de desenvolvimento de uma organização para entender o processo e comportamento.&gt;*
 
 # Diagrama de Casos de Uso
-![Casos_de_uso_IneptaCatus drawio(1)(1)](https://github.com/user-attachments/assets/b7ca29ba-9ccf-4a1a-9248-5525b4a54856)
+![Casos_de_uso_IneptaCatus drawio](https://github.com/user-attachments/assets/f7a3be75-3b8b-4ecd-963a-2ad6e662b6a9)
 
 # Descrição dos Casos de Uso
 
