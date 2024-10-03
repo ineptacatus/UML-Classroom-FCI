@@ -1,10 +1,12 @@
 
+
+
 <h2><a href= "https://www.mackenzie.br">Universidade Presbiteriana Mackenzie</a></h2>
 <h3><a href= "https://www.mackenzie.br/graduacao/sao-paulo-higienopolis/ciencia-da-computacao">Ciência da Computação</a></h3>
 
 
 <font size="+12"><center>
-*&lt;Nome do Projeto&gt;*
+*&lt;Sistema de presenças Escola INFINITO&gt;*
 </center></font>
 
 **Conteúdo**
@@ -37,7 +39,7 @@
 
 # Descrição do Projeto
 
-O projeto \<nome do projeto> busca facilitar o processo de registro e controle de presenças dos alunos da Escola Infinito.
+O projeto Sistema de presenças Escola INFINITO busca facilitar o processo de registro e controle de presenças dos alunos da Escola Infinito.
 
 
 ### Problema
@@ -65,16 +67,16 @@ O sistema contará com recursos que buscam facilitar sua utilização, estes sã
 - O sistema deve permitir que o usuário professor registre presenças para os alunos de suas respectivas turmas.
 - O sistema deve permitir que o usuário administração inclua e modifique dados no sistema de forma irrestrita.
 - O sistema deve permitir que o usuário professor gere relatórios com a opção de serem agrupados por filtros de data, ano de ensino, turma, disciplina ou aluno.
-- O sistema deve permitir que um professor envie notificações por email para os pais ou responsaveis em casos de faltas excessivas.
+- O sistema deve permitir que um professor envie notificações por email para os pais ou responsáveis em casos de faltas excessivas.
 - O sistema deve ter recursos de acessibilidade para garantir a inclusão de todos os usuários.   
 
 ### Requisitos não funcionais
-- O sistema deve ser capaz de ser atualizado por multiplas contas simultaneamente, considerando que existem aulas de salas diferentes que ocorrem ao mesmo tempo.
+- O sistema deve ser capaz de ser atualizado por múltiplas contas simultaneamente, considerando que existem aulas de salas diferentes que ocorrem ao mesmo tempo.
 - O banco de dados deve ser grande o suficiente para integrar dados de todos os alunos, professores, e informações de aulas.
-- Os dados pessoais dos usuarios deverão ser armazenados com criptografia.
+- Os dados pessoais dos usuários deverão ser armazenados com criptografia.
 - O tempo de resposta do sistema deve ser inferior a 3 segundos.
 - O sistema deve seguir as normas da legislação LGPD.
-- O sistema deve estar disponivel 99,9% do tempo.
+- O sistema deve estar disponível 99,9% do tempo.
 
 # Diagrama de Atividades
 
@@ -85,26 +87,494 @@ O sistema contará com recursos que buscam facilitar sua utilização, estes sã
 
 # Descrição dos Casos de Uso
 
-| **Nome do caso de uso** | Fazer login |
-| --- | --- |
-| **Atores principais** | Professor, Administrador |
-| **Atores secundários** | |
-| **Resumo** | Este caso de uso descreve as etapas <br> percorridas por um usuário para fazer <br> login no sistema|
-| **Pré-condições** | |
-| **Pós-condições** | |
-| **FLUXO PRINCIPAL** | |
-| **Ações do ator** | **Ações do sistema** |
-| 1. Usuário insere seu usuário e senha |  |
-| | 2. Sistema verifica que o usuário e senha <br> inseridos correspondem a um usuário no <br> banco de dados|
-| 3. Usuário recebe acesso ao sistema <br> utilizando sua conta | |
-| **FLUXOS ALTERNATIVOS** | |
-| | 2. Sistema verifica que o usuário e senha <br> inseridos não correspondem a um usuário <br> no banco de dados e redireciona o usuário <br> para a tela de login novamente |
-| <br> | |
-| **FLUXOS DE EXCEÇÃO** | |
-| <br> | |
-| <br> | |
-| **Restrições e validações** | 1. É necessário ter uma conta cadastrada <br> no sistema |
+### Caso de uso #1 - Fazer login
+<table>
+    <tr>
+        <th>Nome do caso de uso</th>
+        <th>Fazer Login</th>
+    </tr>
+    <tr>
+        <th>Atores principais</th>
+        <td>Professor, Administrador</td>
+    </tr>
+    <tr>
+        <th>Resumo</th>
+        <td>Este caso de uso descreve as etapas percorridas por um usuário para efetuar login no sistema</td>
+    </tr>
+    <tr>
+        <th>Pré-condições</th>
+        <td>Ter uma conta cadastrada no sistema</td>
+    </tr>
+    <tr>
+        <th>Pós-condições</th>
+        <td></td>
+    </tr>
+    <tr>
+        <th colspan="2">FLUXO PRINCIPAL</th>
+    </tr>
+    <tr>
+        <th>Ações do Ator</th>
+        <th>Ações do Sistema</th>
+    </tr>
+    <tr>
+        <td>1. Usuário insere seu usuário e senha</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>2. Sistema verifica que o usuário e senha inseridos correspondem a um usuário no banco de dados</td>
+    </tr>
+    <tr>
+        <td>3. Usuário recebe acesso ao sistema utilizando sua conta</td>
+        <td></td>
+    </tr>
+    <tr>
+        <th colspan="2">FLUXOS ALTERNATIVOS</th>
+    </tr>
+    <tr>
+        <td><br></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><br></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th colspan="2">FLUXOS DE EXCEÇÃO</th>
+    </tr>
+    <tr>
+        <td></td>
+        <td>2. Sistema verifica que o usuário e senha inseridos não correspondem a um usuário no banco de dados e redireciona o usuário para a tela de login novamente</td>
+    </tr>
+    <tr>
+        <td><br></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>Restrições e validações</th>
+        <td>1. É necessário ter uma conta cadastrada no sistema</td>
+    </tr>
+</table>
 
+### Caso de uso #2 - Atribuir turmas
+
+<table>
+    <tr>
+        <th>Nome do caso de uso</th>
+        <th>Atribuir Turmas</th>
+    </tr>
+    <tr>
+        <th>Atores principais</th>
+        <td>Professor, Administrador</td>
+    </tr>
+    <tr>
+        <th>Resumo</th>
+        <td>Este caso de uso descreve as etapas percorridas por um usuário para atribuir turmas no sistema</td>
+    </tr>
+    <tr>
+        <th>Pré-condições</th>
+        <td>Efetuar login no sistema</td>
+    </tr>
+    <tr>
+        <th>Pós-condições</th>
+        <td></td>
+    </tr>
+    <tr>
+        <th colspan="2">FLUXO PRINCIPAL</th>
+    </tr>
+    <tr>
+        <th>Ações do Ator</th>
+        <th>Ações do Sistema</th>
+    </tr>
+    <tr>
+        <td>1. Usuário insere a turma e seus alunos</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>2. Sistema verifica que a turma e alunos inseridos não correspondem a outras turmas e alunos no banco de dados</td>
+    </tr>
+    <tr>
+        <td>3. Usuário cria a turma com sucesso</td>
+        <td></td>
+    </tr>
+    <tr>
+        <th colspan="2">FLUXOS ALTERNATIVOS</th>
+    </tr>
+    <tr>
+        <td><br></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><br></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th colspan="2">FLUXOS DE EXCEÇÃO</th>
+    </tr>
+    <tr>
+        <td></td>
+        <td>2. Sistema verifica que a turma e alunos inseridos correspondem a uma turma e alunos no banco de dados e redireciona o usuário para a tela de atribuição novamente, indicando os elementos conflitantes</td>
+    </tr>
+    <tr>
+        <td><br></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>Restrições e validações</th>
+        <td></td>
+    </tr>
+</table>
+
+### Caso de uso #3 - Gerar relatórios
+
+<table>
+    <tr>
+        <th>Nome do caso de uso</th>
+        <th>Gerar relatórios</th>
+    </tr>
+    <tr>
+        <th>Atores principais</th>
+        <td>Professor, Administrador</td>
+    </tr>
+    <tr>
+        <th>Resumo</th>
+        <td>Este caso de uso descreve as etapas percorridas por um usuário para gerar relatórios de faltas</td>
+    </tr>
+    <tr>
+        <th>Pré-condições</th>
+        <td>Efetuar login no sistema</td>
+    </tr>
+    <tr>
+        <th>Pós-condições</th>
+        <td></td>
+    </tr>
+    <tr>
+        <th colspan="2">FLUXO PRINCIPAL</th>
+    </tr>
+    <tr>
+        <th>Ações do Ator</th>
+        <th>Ações do Sistema</th>
+    </tr>
+    <tr>
+        <td>1. Usuário define os elementos que deseja informações sobre, podendo filtrar por turma, aluno ou todos</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>2. Sistema verifica que o elemento desejado existe no banco de dados</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>3. Sistema gera o relatório com sucesso</td>
+    </tr>
+    <tr>
+        <th colspan="2">FLUXOS ALTERNATIVOS</th>
+    </tr>
+    <tr>
+        <td><br></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><br></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th colspan="2">FLUXOS DE EXCEÇÃO</th>
+    </tr>
+    <tr>
+        <td><br></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><br></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>Restrições e validações</th>
+        <td></td>
+    </tr>
+</table>
+
+### Caso de uso #4 - Gerar PDF
+
+<table>
+    <tr>
+        <th>Nome do caso de uso</th>
+        <th>Gerar PDF</th>
+    </tr>
+    <tr>
+        <th>Atores principais</th>
+        <td>Professor</td>
+    </tr>
+    <tr>
+        <th>Resumo</th>
+        <td>Este caso de uso descreve as etapas percorridas por um usuário para gerar arquivos PDF a partir de relatórios de falta</td>
+    </tr>
+    <tr>
+        <th>Pré-condições</th>
+        <td>Gerar relatório</td>
+    </tr>
+    <tr>
+        <th>Pós-condições</th>
+        <td></td>
+    </tr>
+    <tr>
+        <th colspan="2">FLUXO PRINCIPAL</th>
+    </tr>
+    <tr>
+        <th>Ações do Ator</th>
+        <th>Ações do Sistema</th>
+    </tr>
+    <tr>
+        <td>1. Usuário indica que deseja gerar um arquivo PDF do relatório</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>2. Sistema verifica que o relatório foi gerado</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>3. Sistema gera o arquivo PDF com sucesso</td>
+    </tr>
+    <tr>
+        <th colspan="2">FLUXOS ALTERNATIVOS</th>
+    </tr>
+    <tr>
+        <td><br></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><br></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th colspan="2">FLUXOS DE EXCEÇÃO</th>
+    </tr>
+    <tr>
+        <td><br></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><br></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>Restrições e validações</th>
+        <td></td>
+    </tr>
+</table>
+
+### Caso de uso #5 - Acessar turma
+
+<table>
+    <tr>
+        <th>Nome do caso de uso</th>
+        <th>Acessar turma</th>
+    </tr>
+    <tr>
+        <th>Atores principais</th>
+        <td>Professor, Administrador</td>
+    </tr>
+    <tr>
+        <th>Resumo</th>
+        <td>Este caso de uso descreve as etapas percorridas por um usuário para acessar uma turma</td>
+    </tr>
+    <tr>
+        <th>Pré-condições</th>
+        <td>Efetuar login no sistema</td>
+    </tr>
+    <tr>
+        <th>Pós-condições</th>
+        <td></td>
+    </tr>
+    <tr>
+        <th colspan="2">FLUXO PRINCIPAL</th>
+    </tr>
+    <tr>
+        <th>Ações do Ator</th>
+        <th>Ações do Sistema</th>
+    </tr>
+    <tr>
+        <td>1. Usuário indica a turma que deseja acessar</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>2. Sistema verifica que a turma existe e o usuário tem permissão para acessá-la</td>
+    </tr>
+    <tr>
+        <td>3. Usuário é concedido acesso à turma</td>
+        <td></td>
+    </tr>
+    <tr>
+        <th colspan="2">FLUXOS ALTERNATIVOS</th>
+    </tr>
+    <tr>
+        <td><br></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><br></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th colspan="2">FLUXOS DE EXCEÇÃO</th>
+    </tr>
+    <tr>
+        <td></td>
+        <td>2. Sistema verifica que a turma inserida não corresponde a uma turmano banco de dados e redireciona o usuário para a tela de acessar turma novamente</td>
+    </tr>
+    <tr>
+        <td><br></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>Restrições e validações</th>
+        <td></td>
+    </tr>
+</table>
+
+### Caso de uso #6 - Registrar presenças
+
+<table>
+    <tr>
+        <th>Nome do caso de uso</th>
+        <th>Registrar presenças</th>
+    </tr>
+    <tr>
+        <th>Atores principais</th>
+        <td>Professor</td>
+    </tr>
+    <tr>
+        <th>Resumo</th>
+        <td>Este caso de uso descreve as etapas percorridas por um usuário para registrar presenças para os alunos de uma turma</td>
+    </tr>
+    <tr>
+        <th>Pré-condições</th>
+        <td>Acessar turma</td>
+    </tr>
+    <tr>
+        <th>Pós-condições</th>
+        <td></td>
+    </tr>
+    <tr>
+        <th colspan="2">FLUXO PRINCIPAL</th>
+    </tr>
+    <tr>
+        <th>Ações do Ator</th>
+        <th>Ações do Sistema</th>
+    </tr>
+    <tr>
+        <td>1. Usuário indica os alunos da turma presentes</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>2. Sistema recebe as informações </td>
+    </tr>
+    <tr>
+        <td>3. Usuário confirma os alunos que receberão falta</td>
+        <td></td>
+    </tr>
+    <tr>
+        <th colspan="2">FLUXOS ALTERNATIVOS</th>
+    </tr>
+    <tr>
+        <td><br></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><br></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th colspan="2">FLUXOS DE EXCEÇÃO</th>
+    </tr>
+    <tr>
+        <td>3. Usuário não confirma os alunos que receberão falta e o sistema redireciona para a tela de atribuição de presença novamente</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><br></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>Restrições e validações</th>
+        <td></td>
+    </tr>
+</table>
+
+### Caso de uso #7 - Enviar notificação por e-mail
+
+<table>
+    <tr>
+        <th>Nome do caso de uso</th>
+        <th>Enviar notificação por e-mail</th>
+    </tr>
+    <tr>
+        <th>Atores principais</th>
+        <td>Professor, Pais</td>
+    </tr>
+    <tr>
+        <th>Resumo</th>
+        <td>Este caso de uso descreve as etapas percorridas por um usuário para enviar um e-mail relacionado às faltas de um aluno para seus pais</td>
+    </tr>
+    <tr>
+        <th>Pré-condições</th>
+        <td>Registrar presenças, aluno ter menos de 80% de presença</td>
+    </tr>
+    <tr>
+        <th>Pós-condições</th>
+        <td></td>
+    </tr>
+    <tr>
+        <th colspan="2">FLUXO PRINCIPAL</th>
+    </tr>
+    <tr>
+        <th>Ações do Ator</th>
+        <th>Ações do Sistema</th>
+    </tr>
+    <tr>
+        <td>1. Usuário indica o aluno que terá os pais notificados</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>2. Sistema envia um e-mail padronizado para os pais atribuidos ao aluno</td>
+    </tr>
+    <tr>
+        <td>3. Usuário recebe confirmação do envio do e-mail</td>
+        <td></td>
+    </tr>
+    <tr>
+        <th colspan="2">FLUXOS ALTERNATIVOS</th>
+    </tr>
+    <tr>
+        <td><br></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><br></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th colspan="2">FLUXOS DE EXCEÇÃO</th>
+    </tr>
+    <tr>
+        <td></td>
+        <td><br></td>
+    </tr>
+    <tr>
+        <td><br></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>Restrições e validações</th>
+        <td></td>
+    </tr>
+</table>
 
 # Diagrama de Sequência
 
