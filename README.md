@@ -1,13 +1,13 @@
 <h2><a href= "https://www.mackenzie.br">Universidade Presbiteriana Mackenzie</a></h2>
 
 
-# Projeto: *<Nome_do_seu_Projeto>*
+# Projeto: *Sistema de presenças Escola INFINITO*
 
 # Grupo: *IneptaCatus*
 
 # Descrição
 
-*<Descrição_resumida_do_projeto>*
+Sistema de Presenças Escola INFINITO é um projeto desenvolvido para otimizar o processo de registro e controle de presenças na Escola Infinito. Ele substitui o método manual atual, reduzindo erros e melhorando a eficiência. O sistema permite que professores registrem faltas de forma intuitiva, gera relatórios detalhados e envia notificações para os responsáveis em casos de faltas excessivas.
 
 # Documentação
 
