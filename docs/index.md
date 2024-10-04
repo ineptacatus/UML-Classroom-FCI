@@ -80,7 +80,8 @@ O sistema contará com recursos que buscam facilitar sua utilização, estes sã
 
 # Diagrama de Atividades
 
-*&lt;Diagrama para visualizer as pessoas das áreas de negócios e de desenvolvimento de uma organização para entender o processo e comportamento.&gt;*
+![diagrama_de_atividades](https://github.com/user-attachments/assets/aad5f0f3-e81e-4fd7-aad0-459a3a7e3147)
+
 
 # Diagrama de Casos de Uso
 ![Casos_de_uso_IneptaCatus drawio](https://github.com/user-attachments/assets/f7a3be75-3b8b-4ecd-963a-2ad6e662b6a9)
