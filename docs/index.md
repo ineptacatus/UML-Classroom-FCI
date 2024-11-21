@@ -583,7 +583,7 @@ O sistema contará com recursos que buscam facilitar sua utilização, estes sã
 
 # Diagrama de Classes
 
-*&lt;Diagrama de relacionamento entre classes para os seus atributos e operações&gt;*
+![Classe UML](https://github.com/user-attachments/assets/201a0990-6160-41ba-9f30-0821610b4cb7)
 
 # Diagrama de Estados
 
