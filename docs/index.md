@@ -591,7 +591,7 @@ O sistema contará com recursos que buscam facilitar sua utilização, estes sã
 
 # Diagrama de Implantação
 
-*&lt;Diagrama para exibir o relacionamento de hardware e software no projeto&gt;*
+![DiagramaImplantacao](https://github.com/user-attachments/assets/a44b6f5b-3a23-478a-ad4e-47e2da462b99)
 
 # Referências
 
