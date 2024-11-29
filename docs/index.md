@@ -587,7 +587,7 @@ O sistema contará com recursos que buscam facilitar sua utilização, estes sã
 
 # Diagrama de Estados
 
-![DiagramaEstados](https://github.com/user-attachments/assets/33a41ed3-7e0a-4eb7-a1e9-a8ed7c9fb54a)
+![DiagramaEstados](https://github.com/user-attachments/assets/611bb873-ec1a-4566-a83c-d32b244759b0)
 
 
 # Diagrama de Implantação
