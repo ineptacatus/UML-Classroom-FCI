@@ -587,7 +587,8 @@ O sistema contará com recursos que buscam facilitar sua utilização, estes sã
 
 # Diagrama de Estados
 
-*&lt;Diagrama para permite modelar o comportamento interno de um determinado objeto, subsistema ou sistema global&gt;*
+![DiagramaEstados](https://github.com/user-attachments/assets/33a41ed3-7e0a-4eb7-a1e9-a8ed7c9fb54a)
+
 
 # Diagrama de Implantação
 
