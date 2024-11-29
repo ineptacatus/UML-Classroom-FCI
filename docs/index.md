@@ -579,7 +579,8 @@ O sistema contará com recursos que buscam facilitar sua utilização, estes sã
 
 # Diagrama de Sequência
 
-*&lt;Diagrama de ordem e interação dos objetos&gt;*
+![Diagrama em branco (2)](https://github.com/user-attachments/assets/84a1bbe1-db5d-4857-9232-030366623693)
+![Diagrama de sequência básico (1)](https://github.com/user-attachments/assets/7a171bfb-dfd8-40c8-92cc-87a6f041b984)
 
 # Diagrama de Classes
 
