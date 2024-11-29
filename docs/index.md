@@ -598,3 +598,11 @@ O sistema contará com recursos que buscam facilitar sua utilização, estes sã
 # Referências
 
 *&lt;Lista de referências&gt;*
+
+https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-maquina-de-estados-uml
+https://www.ibm.com/docs/pt-br/rsas/7.5.0?topic=topologies-deployment-diagrams
+https://www.devmedia.com.br/orientacoes-basicas-na-elaboracao-de-um-diagrama-de-classes/37224
+https://support.microsoft.com/pt-br/topic/criar-um-diagrama-de-sequ%C3%AAncia-uml-c61c371b-b150-4958-b128-902000133b26
+https://www.ibm.com/docs/pt-br/rsm/7.5.0?topic=diagrams-use-case
+https://www.mestresdaweb.com.br/tecnologias/requisitos-funcionais-e-nao-funcionais-o-que-sao
+https://miro.com/pt/modelos/diagrama-atividades-uml/
